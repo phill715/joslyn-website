@@ -1,11 +1,29 @@
 * {
   box-sizing: border-box;
 }
+h1, h2, h3 {
+  font-family: 'Alegreya', serif;
+  line-height: 120%;
+}
+h1 {
+  font-style: italic;
+  font-size: 3em;
+}
+h3 {
+  font-style: italic;
+  font-size: 1.5em;
+}
+p {
+  font-family: 'Lora', serif;
+}
 .banner {
-  background-color: #555;
+  color: white;
+  background-color: #039e00;
   padding: 15px;
 }
 .menu {
+  font-family: 'Alegreya', serif;
+  font-size: 1.5em;
   float: left;
   width: 100%;
 }
@@ -16,7 +34,7 @@
 }
 .menuitem a {
   text-decoration: none;
-  color: #666;
+  color: #039e00;
 }
 .main {
   float: left;
@@ -25,34 +43,37 @@
   overflow: hidden;
 }
 
-#services {
+table {
+  font-family: 'Lora', serif;
   border-collapse: collapse;
-  margin: 0 20px;
+  margin: 20px;
 }
-#services td, #services th {
-  border: 1px solid black;
-  width: 100%;
-}
-#services tr:nth-child(even) {
-  background-color: #f2f2f2;
-}
-#services tr:hover {
-  background-color: #ddd;
-}
-#services th {
+th {
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: left;
-  background-color: #4CAF50;
+  background-color: #87ef85;
   color: white;
+}
+td, th {
+  border: 1px solid black;
+  width: 100%;
+}
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+tr:hover {
+  background-color: #ddd;
 }
 
 #booknow {
+  font-family: 'Lora', serif;
+  font-size: 2em;
   margin: 10px 20px;
 }
 #booknow a {
   padding: 15px 10px;
-  background-color: #f44336;
+  background-color: #039e00;
   color: white;
   text-align: center;
   text-decoration: none;
