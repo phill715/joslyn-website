@@ -81,6 +81,32 @@ tr:hover {
   width: 100%;
 }
 
+.footer {
+  width: 100%;
+  border-top: 1px solid black;
+  margin-top: 20px;
+  text-align: center;
+}
+.fa {
+  padding: 16px 30px 16px 20px;
+  margin: 10px 5px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-instagram {
+  background: #c13584;
+  color: white;
+}
 
 /* Tablet formatting */
 @media only screen and (min-width: 768px) {
