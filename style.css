@@ -18,27 +18,27 @@ p {
   font-family: 'Lora', serif;
 }
 /* Content Formatting */
-.banner {
+#banner {
   color: white;
   background-color: #039e00;
   padding: 1em;
 }
-.menu {
+nav {
   font-family: 'Alegreya', serif;
   font-size: 1.5em;
   float: left;
-  width: 100%;
-}
-.menuitem {
-  padding: 0.5em;
-  margin-top: 0.5em;
   border-bottom: 1px solid #f1f1f1;
 }
-.menuitem a {
+nav a {
   text-decoration: none;
   color: #039e00;
 }
-.main {
+.menuitem {
+  width: 100%;
+  padding: 0.5em;
+  margin-top: 0.5em;
+}
+.about {
   width: 100%;
   overflow: hidden;
   padding: 0 1.25em;
@@ -49,6 +49,13 @@ p {
   width: 100%;
   padding-bottom: 1.25em;
 }
+.right {
+  width: 100%;
+  overflow: hidden;
+  padding: 0 1.25em;
+  float: left;
+}
+/* Table of services */
 table {
   font-family: 'Lora', serif;
   border-collapse: collapse;
@@ -71,6 +78,7 @@ tr:nth-child(even) {
 tr:hover {
   background-color: #ddd;
 }
+/* Book Now button */
 #booknow {
   font-family: 'Lora', serif;
   font-size: 2em;
@@ -85,6 +93,7 @@ tr:hover {
   display: inline-block;
   width: 100%;
 }
+/* Footer w/ social media */
 .footer {
   background-color: #f1f1f1;
   width: 100%;
@@ -117,23 +126,28 @@ tr:hover {
 
 /* Tablet formatting */
 @media only screen and (min-width: 768px) {
-  .menu {
+  nav {
     float: left;
     width: 20%;
   }
-  .main, .about, .right {
+  .about {
     width: 80%;
+  }
+  .right {
+    width: 80%;
+    float: right;
   }
 }
 
 /* Desktop formatting */
 @media only screen and (min-width: 1000px) {
   .about {
-    width: 50%;
+    width: 40%;
   }
   .right {
     float: right;
-    width: 50%;
+    width: 40%;
     padding: 0 1em;
+    padding-top: 4.5em;
   }
 }
